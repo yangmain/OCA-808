@@ -7,8 +7,12 @@ public class Zoo {
 //    System.out.println("args[0] : " + args[0]);
 //    System.out.println("args[1] : " + args[1]);
     
-    Animal a = new Animal();
-    a.name = "Toby";
+//    Animal a = new Animal();
+//    a.name = "Toby";
+    
+    Chicken c = new Chicken();
+    
+//    c.Chicken();
     
   }
 
