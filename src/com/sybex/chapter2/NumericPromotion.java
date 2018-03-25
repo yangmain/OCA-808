@@ -27,6 +27,13 @@ public class NumericPromotion {
     
     System.out.println("float y = " + y); // prints ... 13.0
     
+    long m = 2;
+    long n = m = 3;
+    long o = m = n = 4;
+    System.out.println("m = " + m);
+    System.out.println("n = " + n);
+    System.out.println("o = " + o);
+        
   }
 
 }
