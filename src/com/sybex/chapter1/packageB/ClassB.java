@@ -8,6 +8,13 @@ public class ClassB {
     ClassA a = new ClassA();
     System.out.println(a.message);
     
+    StringBuilder sb = new StringBuilder("Hi ");
+    
+    int x = 4;
+    
+    sb.append(x);
+    
+    System.out.println(sb);
   }
   
 }
