@@ -13,8 +13,9 @@ public class Chicken {
 
   }
   
+  // This is not a constructor
   public void Chicken() {
-//    System.out.println("In method.");
+    System.out.println("In method.");
   }
   
 }

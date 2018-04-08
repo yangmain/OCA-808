@@ -11,8 +11,7 @@ public class Zoo {
 //    a.name = "Toby";
     
     Chicken c = new Chicken();
-    
-//    c.Chicken();
+    c.Chicken();
     
   }
 
