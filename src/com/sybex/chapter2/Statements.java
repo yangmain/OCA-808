@@ -14,7 +14,7 @@ public class Statements {
 //    x = b ? 1 : 2;
 //    b ? print("The true") : print("The false"); // Does not compile.
     
-    System.out.println("b : " + b);
+//    System.out.println("b : " + b);
 
     // Switch
     System.out.println("x is : " + x);
@@ -50,6 +50,25 @@ public class Statements {
         System.out.println("default");
         break;
     }
+    
+//    int i = 0;
+//    System.out.println("i before : " + i);
+//    for (i = 0; i < 10; i++) {
+//      System.out.print(i + " ");
+//    }
+//    System.out.println("i after : " + i);
+//    
+//    long m;
+//    int n;
+//    for( m = 0,  n = 0; m < 10 && n < 10; m++, n = (int) (2 + m)) {
+//      System.out.print(m + " ");
+//      System.out.print(n + " ");
+//    }
+//    
+//    String[] names = new String[3];
+//    for(String name : names) {
+//      System.out.print(name + " ");
+//    }
     
   }
 
