@@ -32,7 +32,6 @@ public class ConvertingBetweenArrayAndList {
     
     array[0] = "Mario";
     for(String s : stringList) System.out.print(s + " ");
-    
   }
 
 }
