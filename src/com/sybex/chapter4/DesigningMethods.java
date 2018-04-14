@@ -13,6 +13,7 @@ public class DesigningMethods {
   }
   
   final public void testMethod() {
+//    return;
   }
   
   // Order of method modifiers is not important, EXCEPT for return type
