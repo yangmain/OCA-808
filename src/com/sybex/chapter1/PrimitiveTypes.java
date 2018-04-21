@@ -15,8 +15,8 @@ public class PrimitiveTypes {
     Animal a = new Animal();
     System.out.println(a.big);
     
-//    Animal b;
-//    System.out.println(b == null); // Error
+    Animal a2;
+//    System.out.println(a2 == null); // Error
     
     if (a.location != null) {
       System.out.println(a.location);
@@ -34,7 +34,22 @@ public class PrimitiveTypes {
     System.out.println("x : " + x);
     System.out.println("d : " + d);
     System.out.println("f : " + f);
+   
+    int intA = 2;
+//    int intB = 2.0;
     
+    long longA = 2;
+//    long longB = 2.0;
+    
+    double dbA = 2;
+    double dbB = 2.0;
+    
+    float floatA = 2;
+//    float floatB = 2.0;
+    
+    System.out.println(intA);
+    intA++;
+    System.out.println(intA);
   }
 
 }

@@ -5,7 +5,7 @@ public class Statements {
   public static void main(String[] args) {
 
     boolean b = true;
-    int x = 0;
+    int x = 1;
     final int y = 3;
     
     String s = "foo";
@@ -19,6 +19,9 @@ public class Statements {
     // Switch
     System.out.println("x is : " + x);
     switch (x) {
+      default :
+        System.out.println("Default case.");
+//        break;
       case 0 :
         System.out.println("Zero");
 //        break;
@@ -30,9 +33,6 @@ public class Statements {
 //        break;
       case y :
         System.out.println("Two");
-//        break;
-      default :
-        System.out.println("Default case.");
 //        break;
     }
     
@@ -69,6 +69,14 @@ public class Statements {
 //    for(String name : names) {
 //      System.out.print(name + " ");
 //    }
+    
+    System.out.println(x > 5 ? true : "hello");
+    
+    int tmp;
+    for (tmp = 0; tmp < 2; tmp++) {
+      System.out.println("tmp inside : " + tmp);
+    }
+    System.out.println("tmp outside : " + tmp);
     
   }
 
