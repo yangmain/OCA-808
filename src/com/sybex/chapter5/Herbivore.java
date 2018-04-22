@@ -10,7 +10,7 @@ public interface Herbivore {
 
   public boolean eatInsect();
   
-  static int getAge() {
+  public static int getAge() {
     return 4;
   }
 
