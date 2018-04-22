@@ -9,6 +9,9 @@ class Animal {
 //    Dog d = new Animal(); // DOES NOT COMPILE
     
     Dog d = (Dog) new Animal();
+    
+    Snake s = new BabyCobra();
+//    BabyCobra bc = (BabyCobra) new Cobra();
   }
 
 }
