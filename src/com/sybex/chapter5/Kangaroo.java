@@ -5,7 +5,7 @@ package com.sybex.chapter5;
  */
 public class Kangaroo extends Marsupial {
 
-  public static boolean isBiped() {
+  public static final boolean isBiped() {
     return true;
   }
   
