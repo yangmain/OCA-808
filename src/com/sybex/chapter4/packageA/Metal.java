@@ -6,6 +6,12 @@ public class Metal extends Element {
   
   public Metal(int durability) {
     super(durability);
+    
+    System.out.println(super.getDurability());
   }
 
+//  protected int getDurability() {
+//    return 100;
+//  }
+  
 }

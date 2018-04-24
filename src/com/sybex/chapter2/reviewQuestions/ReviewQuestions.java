@@ -18,12 +18,23 @@ public class ReviewQuestions {
     
     for(int i = 0; i < 10; ) {
       System.out.println("i when entering loop : " + i);
-      i = i++;
+      i = i ++;
       System.out.println("i when leaving loop : " + i);
     }
     
 //    final char a = 'A', b = 'B';
 //    b = 'C';
+    
+    int plus = 1;
+    System.out.println("plus : " + plus);
+    System.out.println("plus++ : " + plus++);
+    System.out.println("plus : " + plus);
+    
+    final int f = 10, g = 30; // both are final
+//    f++;
+//    g++;
+    
+//    String ternaryTest = true ? "Yes" : false; // DNC
     
   }
 
