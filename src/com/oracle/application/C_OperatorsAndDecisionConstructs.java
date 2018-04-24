@@ -24,6 +24,9 @@ public class C_OperatorsAndDecisionConstructs {
     float amount = 1 - rate / 100 * 1 - rate / 100;
     System.out.println(amount);
     
+    float fzero = 33;
+    System.out.println(fzero);
+    
     boolean flag = true;
     
     // No indentation
