@@ -36,6 +36,11 @@ public class Static {
   public static int x;
 //  public final static int y; // DOES NOT COMPILE
   
+  
+  public static final void sayHello() {
+    System.out.println("Static hello");
+  }
+  
   static {
      x = 3;
   }
