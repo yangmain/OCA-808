@@ -5,6 +5,11 @@ import java.util.*;
 public class ConvertingBetweenArrayAndList {
 
   public static void main(String[] args) {
+    // Arrays
+    int[] a1 = new int[3];
+    int[] a2 = new int[] {1, 2, 3};
+    int[] a3 = {1, 2, 3};
+    
     // List to array
     List<String> list = new ArrayList<>();
     list.add("Mario");
