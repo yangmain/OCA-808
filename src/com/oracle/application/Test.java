@@ -1,5 +1,7 @@
 package com.oracle.application;
 
+import java.util.ArrayList;
+
 import com.sybex.chapter1.Animal;
 
 public class Test {
@@ -10,6 +12,18 @@ public class Test {
     System.gc(); // because why not?
     
     Animal a = new Animal();
+    
+    varargsMethod();
+    varargsMethod(1, 2, 3);
+  }
+  
+  
+  
+  public static void varargsMethod(int... is) {
+    System.out.println("is.length : " + is.length);
+    for(int i : is) {
+      System.out.println("i : " + i);
+    }
   }
   
 }

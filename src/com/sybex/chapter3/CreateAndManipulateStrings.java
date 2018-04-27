@@ -23,6 +23,9 @@ public class CreateAndManipulateStrings {
     String a = "abc";
     String b = "ABC".toLowerCase();
     System.out.println("a == b : " + (a == b));
+
+  a += 1;
+  
   }
   
 }
